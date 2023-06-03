@@ -34,7 +34,7 @@ int main(){
     int arr2[8] = {0,2,5,6,4,1,0};
     int arr3[10] = {3, 7, 9, 24, 57, 68, 355, 122, 99, 24};
 
-    cout << " Peak Index is " << peakIndex(arr1, 3) << endl;
-    cout << " Peak Index is " << peakIndex(arr2, 8) << endl;
-    cout << " Peak Index is " << peakIndex(arr3, 10) << endl;
+    cout << " Peak Index is " << peakIndex(arr1, 3) << endl;    // 1
+    cout << " Peak Index is " << peakIndex(arr2, 8) << endl;    // 3
+    cout << " Peak Index is " << peakIndex(arr3, 10) << endl;   // 6
 }
