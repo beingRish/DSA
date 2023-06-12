@@ -24,6 +24,6 @@ int main(){
     cout << "after erase : " << d.size() << endl;   // 1
 
     for(int i:d){
-        cout << i << endl;
+        cout << i << endl;      // 1
     }
 }
