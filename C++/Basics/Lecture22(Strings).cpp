@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
 
+/****************  Length of the String    ****************/
 int getLength(char name[]){
 
     int count = 0;
@@ -10,6 +11,7 @@ int getLength(char name[]){
     return count;
 }
 
+/****************  Reverse the String    ****************/
 void reverse(char name[], int n){
     int s = 0;
     int e = n-1;
@@ -17,6 +19,34 @@ void reverse(char name[], int n){
     while(s<e){
         swap(name[s++], name[e--]);
     }
+}
+
+/****************  converting character to lower case   *****************/
+char toLowerCase(char ch){
+    if(ch >= 'a' && ch <= 'z')
+        return ch;
+    else{
+        char temp = ch - 'A' + 'a';
+        return temp;
+    }
+}
+
+/****************  Check Palindrome    ****************/
+bool checkPalindrome(char a[], int n){
+    int s = 0;
+    int e = n-1;
+
+    while(s<=e){
+        if(toLowerCase( a[s] ) != toLowerCase( a[e] )){
+            return 0;
+        }
+        else{
+            s++;
+            e--;
+        }
+    }
+
+    return 1;
 }
 
 int main(){
@@ -39,6 +69,12 @@ int main(){
     reverse(name, len);
     cout << " Your Reversed Name: " << name << endl;
 
+        /*  Check the String is Palindrome or not   */
+    cout << " Palindrome or Not: " << checkPalindrome(name, len) << endl;
+
+        /*  Making character case sensitive    */
+    cout << " CHARACTER is " << toLowerCase('b') << endl;   // b
+    cout << " CHARACTER is " << toLowerCase('C') << endl;   // c
 
     return 0;
 }
