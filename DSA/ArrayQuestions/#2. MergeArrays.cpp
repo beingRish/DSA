@@ -43,7 +43,7 @@ int main(){
     int arr3[8] = {0};
 
     merge(arr1, 5, arr2, 3, arr3);
-    print(arr3, 8);
+    print(arr3, 8);     // {1,2,3,4,5,6,7,9}
 
 
     return 0;
