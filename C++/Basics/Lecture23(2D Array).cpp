@@ -21,7 +21,7 @@ bool isPresent(int arr[][3], int target, int row, int col){
         // FUnction to Sum the element row wise
 
 void printRowSum(int arr[][3], int row, int col){
-    cout << "Printing SUm -> "  << endl;
+    cout << "Printing SUm Row Wise-> "  << endl;
     for(int row=0; row<3; row++){
         int sum = 0;
         for(int col=0; col<3; col++){
@@ -35,7 +35,7 @@ void printRowSum(int arr[][3], int row, int col){
         // FUnction to Sum the element Column wise
 
 void printColSum(int arr[][3], int row, int col){
-    cout << "Printing SUm -> "  << endl;
+    cout << "Printing SUm Column Wise-> "  << endl;
     for(int col=0; col<3; col++){
         int sum = 0;
         for(int row=0; row<3; row++){
@@ -44,6 +44,28 @@ void printColSum(int arr[][3], int row, int col){
         cout << sum << " ";
     }
     cout << endl;
+}
+
+        // Function to Find Largest Row Sum
+
+int largestRowSum(int arr[][3], int row, int col){
+
+    int maxi = INT_MIN;
+    int rowIndex = -1;
+
+    for(int row = 0; row < 3; row++){
+        int sum = 0;
+        for(int col = 0; col < 3; col++){
+            sum += arr[row][col];
+        }
+
+        if(sum > maxi){
+            maxi = sum;
+            rowIndex = row;
+        }
+    }
+    cout << "The Maximum sum is " << maxi << endl;
+    return rowIndex;
 }
 
 int main(){
@@ -82,7 +104,7 @@ int main(){
     }
 
         // Search the Element
-
+/*
     cout << "Enter the element to search : " << endl;
     int target;
     cin >> target;
@@ -93,7 +115,7 @@ int main(){
     else{
         cout << " Not Found " << endl;
     }
-
+*/
         // sum the element row wise
 
     printRowSum(arr, 3, 3);
@@ -102,6 +124,9 @@ int main(){
 
     printColSum(arr, 3, 3);
 
+
+    int ansIndex = largestRowSum(arr, 3, 3);
+    cout << "Max Row is at index " << ansIndex << endl;
 
 
     return 0;
