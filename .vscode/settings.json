@@ -2,6 +2,7 @@
     "C_Cpp.errorSquiggles": "disabled",
     "files.associations": {
         "iostream": "cpp",
-        "numeric": "cpp"
+        "numeric": "cpp",
+        "q1_bubblesort": "cpp"
     }
 }
