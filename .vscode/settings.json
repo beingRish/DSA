@@ -3,6 +3,7 @@
     "files.associations": {
         "iostream": "cpp",
         "numeric": "cpp",
-        "q1_bubblesort": "cpp"
+        "q1_bubblesort": "cpp",
+        "new": "cpp"
     }
 }
