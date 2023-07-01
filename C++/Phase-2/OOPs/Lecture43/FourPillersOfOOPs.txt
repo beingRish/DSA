@@ -4,8 +4,8 @@
 
         -> Encapsulation
         -> Inheritance
-        ->
-        ->
+        -> Polymorphism
+        -> Abstraction
 
     1.  Encapsulation :-> Encaptulation is nothing but binding the data members and member functions into a single unit called Encaptulation.
                           Wrapping up data members(properties/state) and member functions(methods/behaviour).
@@ -35,4 +35,18 @@
                              Combination of more than 1 type o inheritance.
 
                 -> Heirarchical :- When Multiple sub class is created from only one superclass is called Hierarchical inheritance.
+
+    3. Polymorphism :- Existing in multiple forms.
+
+          Types of Polymorphism :- i) Compile time Polymorphism / Static Polymorphism
+                                  ii) Run time Polymorphism / Dynamic Polymorphism
+
+              1. Compile time :- a) function overloading
+                                 b) operator overloading :- An Operator Overloading is the process of using an operator instead of a function to do a particular work.
+                              
+              2. Run time :- a) Method Overriding :- It is a feature that allows you to redefine the parent class method in the child class based on its requirement.
+
+    4. Abstraction("Implementation Hiding") :- Displaying only essential/necessary information and hiding the details.
+
+
 
