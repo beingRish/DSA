@@ -4,8 +4,22 @@
         -> It is type of programming technique where things resolves around objects
            so that readability/maintainability/extandibility increases.
 
+        Class :- -> It is a user defined data type.
+                 -> It is a complex data type.
+                 -> It is collection of members.
+                    i) data members(variables)
+                    ii) member function(methods)
+                 -> Class is a container.
+                 -> Class provides the concept of encaptulation.
+                 -> Class provides the concept of data hiding with private declaration.
+                 -> Class is a blue print(Original copy) to construct objects.
+                 -> It is a plan before constructing objects.
+                 -> Class is a logical copy to create objects
+
         Object :- Object is an real-world entity which has properties and behaviour.
-                  Object is an instance of class.
+                  It is a variable of type class.
+                  Object is an instance/copy of class.
+                  It is a physical representation of class.
 
         Constructor :- It is a special type of method that consists of well defined statements which executes automatically during creation of object.
                        No return type.

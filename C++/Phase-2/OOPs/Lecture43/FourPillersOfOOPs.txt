@@ -1,0 +1,38 @@
+
+
+          ********************* Four Pillers of OOPs *************************
+
+        -> Encapsulation
+        -> Inheritance
+        ->
+        ->
+
+    1.  Encapsulation :-> Encaptulation is nothing but binding the data members and member functions into a single unit called Encaptulation.
+                          Wrapping up data members(properties/state) and member functions(methods/behaviour).
+                          Information Hiding / Data Hiding
+
+            -> Fully Encapsulation Class :- all Data Members marked as private.
+
+            Advantage :- .Data Hiding.
+                         .if we want, we can make class read only.
+                         .code reusability.
+                         .better for unit testing.
+    
+    2.  Inheritance :-> Inheritance is the process of derieving a new class or classes from existing old class or classes.
+                        In other words, It is also called it is the process of passing the properties of one class to another.
+                        In this situation, The old class is referred as base class/super class and the newly created class is called derieved/sub class.
+                        It provides the concept of reusibility and extendibility.
+
+            Types of Inheritance :-
+
+                -> Single :- It is the mechanism of derieving a class from only one base class.
+
+                -> Multi-level :- It is the process of deriving a new class from another derived class.
+
+                -> Multiple :- It is the process of derieving a new class by using of more than one base classes;
+
+                -> Hybrid :- In this Inheritance, we are deriving the classes by using more than one Inheritance model.
+                             Combination of more than 1 type o inheritance.
+
+                -> Heirarchical :- When Multiple sub class is created from only one superclass is called Hierarchical inheritance.
+
