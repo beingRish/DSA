@@ -1,0 +1,14 @@
+
+                *************** Linked List ***************
+
+-> Linked List is a type of linear data structre which is collection of nodes.
+-> Dynamic Data Structure(grow/shrink at run time) - No memory wastage
+-> Easy Insertion and deletion (no shift needed).
+
+    Node :- Collection of data and Address of next node(pointer of node type).
+
+                        Types of Linked List
+    1. Singly Linked List
+    2. Doubly Linked List
+    3. Circular Linked List
+    4. Circular doubly Linked List
