@@ -1,0 +1,15 @@
+
+
+                Stack
+                =====
+
+Stack is a type of data structure which follow LIFO (Last In First OUT) Order.
+
+                Operations on Stack
+                ===================
+
+    ->  push()
+    ->  pop()
+    ->  peek/top()
+    ->  empty() etc.
+
